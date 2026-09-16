@@ -31,7 +31,7 @@
   <tr>
     <td colspan="8">
 <p align="center">
-<img src="https://i.pinimg.com/originals/6b/40/6b/6b406b80b326477cafb692ed0113dca3.gif" width="500" style="border-radius: 8px;">
+<img src="./gifs/Yachiyo.gif" width="500" style="border-radius: 8px;">
 </p>
     </td>
   </tr>
@@ -42,19 +42,12 @@
 ## 🛠 ⊶ Technologies ⊷
   
 <img src="https://img.icons8.com/?size=100&id=m4XmoQpRVreA&format=png&color=000000" alt="C#" width="45" height="45"/>
-
 <img src="https://img.icons8.com/?size=100&id=mfkStOwP4EC0&format=png&color=000000" alt="C" width="45" height="45"/>
-
 <img src="https://img.icons8.com/?size=100&id=D2Hi2VkJSi33&format=png&color=000000" alt="HTML5" width="45" height="45"/>
-
 <img src="https://img.icons8.com/?size=100&id=k0mhEXozIpG1&format=png&color=000000" alt="JavaScript" width="45" height="45"/>
-
 <img src="https://img.icons8.com/?size=100&id=YjeKwnSQIBUq&format=png&color=000000" alt="CSS3" width="45" height="45"/>
-
 <img src="https://img.icons8.com/?size=100&id=YX03OUiHE3rz&format=png&color=000000" alt="Python" width="45" height="45"/>
-
 <img src="https://img.icons8.com/?size=100&id=NfbyHexzVEDk&format=png&color=000000" alt="React" width="45" height="45"/>
-
 <img src="https://img.icons8.com/?size=100&id=v05jsvW3RprR&format=png&color=000000" alt="Visual Studio Code" width="45" height="45"/>   
           
 </p>
