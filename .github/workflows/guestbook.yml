@@ -1,0 +1,79 @@
+name: Guestbook
+
+on:
+  issue_comment:
+    types: [created, edited, deleted]
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    # only runs for comments on the guestbook issue (title must match exactly)
+    if: github.event.issue.title == '✧*⋆.⋯ 𝐆𝐮𝐞𝐬𝐭𝐛𝐨𝐨𝐤 ⋯.⋆*✧'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const MAX_ENTRIES = 10;
+            const MAX_CHARS = 200;
+
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              per_page: 100,
+            });
+
+            const esc = (t) => String(t)
+              .replace(/&/g, '&amp;')
+              .replace(/</g, '&lt;')
+              .replace(/>/g, '&gt;')
+              .replace(/"/g, '&quot;');
+            const msg = (t) => esc(t.replace(/\s+/g, ' ').trim().slice(0, MAX_CHARS));
+
+            const rows = comments
+              .filter((c) => c.user && c.user.type !== 'Bot')
+              .reverse()
+              .slice(0, MAX_ENTRIES)
+              .map((c) => {
+                const date = new Date(c.created_at).toLocaleString('en-US', {
+                  timeZone: 'America/Sao_Paulo',
+                });
+                const img = `<img src="${esc(c.user.avatar_url)}&s=52" width="26" height="26" alt=""/>`;
+                const user = `${img} <a href="${esc(c.user.html_url)}">${esc(c.user.login)}</a>`;
+                return `<tr><td>${user}</td><td>${date}</td><td>${msg(c.body || '')}</td></tr>`;
+              });
+
+            const html = rows.length
+              ? [
+                  '<table width="100%">',
+                  '<tr><th>Name</th><th>Date</th><th>Message</th></tr>',
+                  ...rows,
+                  '</table>',
+                ].join('\n')
+              : 'Be the first one to sign! ✨';
+
+            const START = '<!-- GUESTBOOK:START -->';
+            const END = '<!-- GUESTBOOK:END -->';
+            const readme = fs.readFileSync('README.md', 'utf8');
+            const re = new RegExp(`${START}[\\s\\S]*?${END}`);
+            if (!re.test(readme)) {
+              core.setFailed('Guestbook markers not found in README.md');
+              return;
+            }
+            fs.writeFileSync('README.md', readme.replace(re, () => `${START}\n${html}\n${END}`));
+
+      - name: Commit
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: update guestbook"
+            git push
+          fi

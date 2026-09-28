@@ -54,10 +54,21 @@
 <table align="center">
   <tr>
     <td>
+      <h3 align="center">☆ 𝑩𝒆𝒇𝒐𝒓𝒆 𝒚𝒐𝒖 𝒘𝒂𝒏𝒅𝒆𝒓 𝒐𝒇𝒇 𝒊𝒏𝒕𝒐 𝒕𝒉𝒆 𝒔𝒕𝒂𝒓𝒔, 𝒍𝒆𝒂𝒗𝒆 𝒂 𝒎𝒆𝒔𝒔𝒂𝒈𝒆! ☆</h3>
+    </td>
+    <td>
       <p align="center"> <img src="./gifs/Usagi.gif" width="40%"> </p>
     </td>
     <td>
-      <h3 align="center">☆ Before you go, please leave a message!☆</h2>
+      <p align="center">
+        <b>✧*⋆.⋯ 𝐆𝐮𝐞𝐬𝐭𝐛𝐨𝐨𝐤 ⋯.⋆*✧</b> <a href="https://github.com/0Isabella/0Isabella/issues/1#issuecomment-new">(𝐴𝑑𝑑 𝑎 𝑛𝑒𝑤 𝑒𝑛𝑡𝑟𝑦)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">
+      <!-- GUESTBOOK:START -->
+      <!-- GUESTBOOK:END -->
     </td>
   </tr>
 </table>
