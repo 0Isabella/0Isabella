@@ -57,7 +57,7 @@
       <h3 align="center">☆ 𝑩𝒆𝒇𝒐𝒓𝒆 𝒚𝒐𝒖 𝒘𝒂𝒏𝒅𝒆𝒓 𝒐𝒇𝒇 𝒊𝒏𝒕𝒐 𝒕𝒉𝒆 𝒔𝒕𝒂𝒓𝒔, 𝒍𝒆𝒂𝒗𝒆 𝒂 𝒎𝒆𝒔𝒔𝒂𝒈𝒆! ☆</h3>
     </td>
     <td>
-      <p align="center"> <img src="./gifs/Usagi.gif" width="40%"> </p>
+      <p align="center"> <img src="./gifs/Usagi.gif" width="70%"> </p>
     </td>
     <td>
       <p align="center">
