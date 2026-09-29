@@ -70,7 +70,7 @@
       <!-- GUESTBOOK:START -->
 <table width="100%">
 <tr><th>Name</th><th>Date</th><th>Message</th></tr>
-<tr><td><img src="https://avatars.githubusercontent.com/u/180767611?v=4&s=52" width="26" height="26" alt=""/> <a href="https://github.com/Johns-300605">Johns-300605</a></td><td>9/28/2026, 6:10:17 PM</td><td>I'm about to lose myself!</td></tr>
+<tr><td><img src="https://avatars.githubusercontent.com/u/180767611?v=4&s=52" width="26" height="26" alt=""/> <a href="https://github.com/Johns-300605">Johns-300605</a></td><td>9/28/2026, 6:10:17 PM</td><td>I'm about to lose my mind!</td></tr>
 </table>
 <!-- GUESTBOOK:END -->
     </td>
