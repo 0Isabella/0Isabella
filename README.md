@@ -2,7 +2,7 @@
 
 <p align="center"> <img src="https://raw.githubusercontent.com/0Isabella/GitStar/main/output/gitstar.svg" alt="GitStar" width="95%"> </p>
 
-<p align="center">  ✦ ──────────────────────────────── ✦ ──────────────────────────────── ✦ </p>
+<p align="center">  ✦ ──────────────────────────── ✦ ──────────────────────────── ✦ </p>
 
 <table align="center">
   <tr>
@@ -23,9 +23,7 @@
   </tr>
 </table>
 
-<p align="center">  ✦ ─────────────────────────────── ✦ ──────────────────────────────── ✦ </p>
-
-<img src="https://i.pinimg.com/originals/6b/40/6b/6b406b80b326477cafb692ed0113dca3.gif" width="400" style="border-radius: 8px;">
+<p align="center">  ✦ ──────────────────────────── ✦ ──────────────────────────── ✦ </p>
 
 ## 🛠 ⊶ 𝑻𝒆𝒄𝒉𝒏𝒐𝒍𝒐𝒈𝒊𝒆𝒔 ⊷
 
@@ -49,7 +47,7 @@
   <img src="https://img.icons8.com/?size=100&id=17842&format=png&color=000000" alt="Linux" width="45" height="45"/>
 </p>
 
-<p align="center">  ✦ ✧ ✦ ──────────────✧─────────────── ✦ ✧ ✦ ──────────────✧─────────────── ✦ ✧ ✦</p>
+<p align="center">  ✦ ✧ ✦ ───────────── ✦ ───────────── ✧ ───────────── ✦ ───────────── ✦ ✧ ✦</p>
 
 <table align="center">
   <tr>
