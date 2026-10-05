@@ -47,7 +47,7 @@
   <img src="https://img.icons8.com/?size=100&id=17842&format=png&color=000000" alt="Linux" width="45" height="45"/>
 </p>
 
-<p align="center">  ✦ ✧ ✦ ───────────── ✦ ───────────── ✧ ───────────── ✦ ───────────── ✦ ✧ ✦</p>
+<p align="center">  ✦ ✧ ✦ ──────────── ✦ ──────────── ✧ ──────────── ✦ ───────────── ✦ ✧ ✦</p>
 
 <table align="center">
   <tr>
